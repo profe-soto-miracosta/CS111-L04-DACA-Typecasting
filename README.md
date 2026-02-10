@@ -12,11 +12,14 @@ As you read in this week's article, DACA recipients contribute massively to our 
 - Average DACA recipient tax contribution, rounded down to the nearest whole dollar
 - State with the most DACA recipients
 
-However, there are some decisions that were made in the backend system that you have no control over. You've been instructed to stick to the same data types, and have your code adjust appropriately. The database that this data will come from stores data in the following ways:
+## Specifications
+There are some decisions that were made in the backend system that you have no control over. You've been instructed to stick to the same data types, and have your code adjust appropriately. The database that this data will come from stores data in the following ways:
 
 - State abbreviations (ex: _NY_) are stored as two separate characters, each lower-case (ex: _n_ and _y_)
 - Number of DACA recipients is stored as a whole number
 - Total federal tax contribution stored as a whole number
+
+**Declare and initialize variables that match the database.**
 
 They are expecting output similar to:
 ```
@@ -33,7 +36,7 @@ State with most DACA recipients: CA
 
 **Java tip:**
 
-- Having an issue with storing an integer outside of the `int` range? Use a larger data type for integers, make sure to use `L` right after the number so that Java recognizes it as a larger integer type. Example: `123456789012L`
+- Having an issue with storing an integer outside of the `int` range? For example, the total federal tax contributions. Use a larger data type for integers, make sure to use `L` right after the number so that Java recognizes it as a larger integer type. Example: `123456789012L`
 
 ## HACKER CHALLENGE
 

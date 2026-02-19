@@ -1,7 +1,7 @@
-// YOUR NAME: 
-// COLLABORATORS:  
-// DATE: 
-
+/**
+* Program description here
+* @author Your Name Here
+*/
 public class Main
 {
 	public static void main(String[] args)
